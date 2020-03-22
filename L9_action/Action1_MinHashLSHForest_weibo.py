@@ -1,4 +1,4 @@
-# 对天猫双11新闻进行相似句子Top-K查询
+# 对微博新闻进行相似句子Top-K查询
 from datasketch import MinHash, MinHashLSH, MinHashLSHForest
 from sklearn.feature_extraction.text import TfidfVectorizer
 import jieba.posseg as pseg
